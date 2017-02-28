@@ -1,0 +1,192 @@
+*{margin: 0;padding: 0;}
+		body{background-color: #ccc;}
+		header{	
+			width: 100%;
+			height: 50px;
+			background-color: #222;
+			position: relative;
+		}
+
+		header h1{margin-left: 50px;}
+		
+		header ul{
+			position: absolute;
+			top: 0;right: 20px;
+			float: left;
+		}
+
+		header ul li{
+			float:left;
+			margin: 10px;	
+		}
+
+		header ul li a{
+			text-decoration: none;
+			color: white;
+		}
+
+		main{
+			margin-top: 20px;
+			margin-left: 20px;
+			margin-right: 410px;
+		}
+
+		main h2{
+			font-size: 22px;
+    		margin: 10px 0;
+		}
+
+		main h3{
+			font-size: 16px;
+    		margin: 10px 0;
+    		color: #888;
+		}
+
+		main h4{
+			font-size: 13px;
+    		margin: 10px 0;
+    		color: #888;
+		}
+
+		main p{
+			font-family:微软雅黑;
+			font-size: 15px;
+			text-indent: 30px;
+		}
+
+		.left_01{
+			background-color: white;
+			padding: 20px;
+			margin-bottom: 20px;
+		}
+
+		.left_02{
+			background-color: white;
+			padding: 20px;
+			margin-bottom: 20px;
+		}
+
+		.left_02 ul{
+			margin-top: 10px;
+			font-size: 15px;
+			text-indent: 30px;
+		}
+
+		.left_02 ul li{list-style: none;}
+
+		.left_03{
+			background-color: white;
+			padding: 20px;
+			margin-bottom: 20px;
+		}
+
+		.image figure{
+    		border: 1px solid #ccc;
+    		padding: 5px;
+    		margin-top: 20px;
+    		float: left;
+    		margin-left: 20px;
+		}
+
+		.image:after {
+    		content: '';
+    		display: block;
+    		clear: both;
+		}
+
+		.image p {
+    		font-size: 14px;
+    		margin-top: 10px;
+    		text-align: center;
+		}
+
+		.image img {
+   			width: 120px;
+    		margin: 10px;
+		}
+
+
+		.left_04{
+			background-color: white;
+			padding: 20px;
+			margin-bottom: 20px;
+			clear: both;
+		}
+
+		.left_04 ol{
+			margin-left: 30px;
+			margin-top: 20px;
+		}
+
+		.left_04 ol li{
+			font-size: 15px;
+		}
+
+		.left_04 table{
+			border-collapse:collapse;
+			width: 100%;
+			text-align: left;
+			font-size: 15px;
+		}
+
+		table thead{
+			background-color: #222;
+			color: white;
+		}
+
+		table th{padding-left: 5px;}
+
+		table td{padding-left: 5px;}
+
+		table tfoot{background-color: #ccc;}
+
+
+
+
+		.rightbox{
+			position: absolute;
+			top: 70px;
+			right: 20px;
+			width: 350px;
+			background-color: white;
+			padding: 10px;
+			box-shadow: 2px 3px 2px 1px #888888;
+		}
+
+		.rightbox h2{
+			font-size: 16px;
+			border-left: 3px solid #ccc;
+			padding-left: 10px;
+		}
+
+		.rightbox span{
+			display: inline-block;
+    		width: 110px;
+    		text-align: right;
+    		font-size: 14px;
+    		margin-top: 15px;
+    		margin-right: 10px;
+		}
+
+		span.warntext{
+			width: 170px;
+    		text-align: left;
+    		color: #ccc;
+    		margin-top: 10px;
+		}
+
+		textarea{
+			margin-top: 15px;
+    		vertical-align: top;
+		}
+
+		button{
+			width: 100%;
+			background-color:#0000EE;
+			color: white;
+			line-height: 40px;
+			font-size: 20px;
+			border-radius: 10px;
+			margin-top: 20px;
+
+		}
