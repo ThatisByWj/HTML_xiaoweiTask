@@ -33,19 +33,19 @@
 
 		main h2{
 			font-size: 22px;
-    		margin: 10px 0;
+    			margin: 10px 0;
 		}
 
 		main h3{
 			font-size: 16px;
-    		margin: 10px 0;
-    		color: #888;
+    			margin: 10px 0;
+    			color: #888;
 		}
 
 		main h4{
 			font-size: 13px;
-    		margin: 10px 0;
-    		color: #888;
+    			margin: 10px 0;
+    			color: #888;
 		}
 
 		main p{
@@ -81,28 +81,28 @@
 		}
 
 		.image figure{
-    		border: 1px solid #ccc;
-    		padding: 5px;
-    		margin-top: 20px;
-    		float: left;
-    		margin-left: 20px;
+    			border: 1px solid #ccc;
+    			padding: 5px;
+    			margin-top: 20px;
+    			float: left;
+    			margin-left: 20px;
 		}
 
 		.image:after {
-    		content: '';
-    		display: block;
-    		clear: both;
+    			content: '';
+    			display: block;
+    			clear: both;
 		}
 
 		.image p {
-    		font-size: 14px;
-    		margin-top: 10px;
-    		text-align: center;
+    			font-size: 14px;
+    			margin-top: 10px;
+    			text-align: center;
 		}
 
 		.image img {
    			width: 120px;
-    		margin: 10px;
+    			margin: 10px;
 		}
 
 
@@ -161,23 +161,23 @@
 
 		.rightbox span{
 			display: inline-block;
-    		width: 110px;
-    		text-align: right;
-    		font-size: 14px;
-    		margin-top: 15px;
-    		margin-right: 10px;
+    			width: 110px;
+    			text-align: right;
+    			font-size: 14px;
+    			margin-top: 15px;
+    			margin-right: 10px;
 		}
 
 		span.warntext{
 			width: 170px;
-    		text-align: left;
-    		color: #ccc;
-    		margin-top: 10px;
+    			text-align: left;
+    			color: #ccc;
+    			margin-top: 10px;
 		}
 
 		textarea{
 			margin-top: 15px;
-    		vertical-align: top;
+    			vertical-align: top;
 		}
 
 		button{
