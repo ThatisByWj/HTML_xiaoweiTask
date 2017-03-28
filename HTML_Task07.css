@@ -1,0 +1,552 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	font-size: 15px;
+	
+}
+body{
+	background-color: rgb(14,14,14);
+}
+#main{
+	overflow: auto;
+	background-color: #FFFFFF;
+	width: 1280px;
+	margin:0 auto;
+	position: relative;
+	
+}
+
+a{
+	text-decoration: none;
+}
+
+header{
+	height: 60px;
+	position:relative;
+}
+
+header>div>nav{
+	float: right;
+	margin-top: 15px;
+	margin-right: 110px;
+}
+
+header > div >nav >a{
+	color: rgba(120,120,120,0.9);
+	margin-left: 50px;
+	font-weight: 400;
+	display: inline-block;
+	height: 42px;
+	width: 60px;
+	text-align: center;
+}
+
+header > div >img{
+	position: absolute;
+	left: 60px;
+	top: 16px;
+}
+
+header > div >span{
+	position: absolute;
+	left: 100px;
+	top:20px;
+	font-size: 20px;
+}
+
+header > div >nav >a:hover{
+	color: #E74E48;
+	border-bottom: 3px solid #E74E48;
+}
+
+.active{
+	color: #E74E48;
+	border-bottom: 3px solid #E74E48;
+}
+
+.end{
+	color: #E74E48;
+	font-weight: 500;
+}
+
+ .first{
+	width: 1280px;
+	height: 650px;
+	background-image: url("http://olyqrulls.bkt.clouddn.com/man.png");
+	
+}
+ .first > .new_life{
+	width: 1280px;
+	height: 650px;
+	background:rgba(0,0,0,0.3);
+	position:relative; 
+}
+.first > .new_life > .text01{
+	position: absolute;
+	top: 225px;
+	left: 116px;
+	width: 460px;
+	color: white;
+
+}
+.first > .new_life > .text01 p:first-child{
+	font-size: 65px;
+	margin-bottom: 10px;
+	
+}
+.first > .new_life > .text01 p:nth-child(2),p:nth-child(3){
+	font-size: 20px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+.first > .new_life > .text01 p:last-child{
+	font-size: 25px;
+	display: inline-block;
+	width: 330px;
+	height: 60px;
+	text-align: center;
+	background-color: #E74E48;
+	line-height: 60px;
+	margin-left: 10px;
+	margin-top: 65px;
+}
+
+.img01,.img02,.img03,.img04{
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin-top: 40px;
+	text-align: center;
+}
+.second p{
+	display: inline-block;
+	font-size: 14px;
+	color: rgba(105,105,105,0.9);
+	margin-top: 40px;
+	padding-right: 30px;
+	margin-left: 50px;
+	border-right: 2px solid rgba(105,105,105,0.7);
+}
+
+.third{
+	background-color: rgb(237,237,237);
+	width: 1280px;
+	height: 360px;
+	margin-top: 230px;
+}
+.third div{
+	text-align: center;
+	padding-top: 85px;
+}
+.third > div > p{
+	color: rgb(161,161,161);
+	font-size: 55px;
+	margin-top: 30px;
+}
+
+.map{
+	width: 1280px;
+	height: 340px;
+	background-image: url("http://olyqrulls.bkt.clouddn.com/map2.png");
+
+}
+.map >.alpha{
+	background-color: rgba(220,20,60,0.3);
+	width: 1280px;
+	height: 340px;
+	text-align: center;
+	position: relative;
+}
+.map > .alpha >p:first-child{
+	color: white;
+	padding-top: 50px;	
+	font-size: 20px;
+	letter-spacing:3px;
+}
+.map > .alpha >p:nth-child(2){
+	color: white;
+	margin-top: 20px;
+	font-size: 10px;
+}
+.map > .alpha >p >span{
+	font-size: 20px;
+	display: inline-block;
+	border-bottom: 2px solid white;
+}
+.map > .alpha > select{
+	width: 235px;
+	height: 36px;
+	margin-top: 30px;
+	margin-left: 30px;
+	display: inline-block;
+	float: left;
+}
+
+.map>.alpha>.ch{
+	margin-left: 100px;
+}
+.map>.alpha>.sousuo{
+	display: inline-block;
+	width: 235px;
+	height: 36px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+	background-color: rgb(191,78,72);
+	color: white;
+	letter-spacing: 10px;
+	font-size: 16px;
+	line-height: 36px;
+}
+.show{
+	height: 608px;
+	background-color: rgb(247,247,247);
+}
+.sh01,.sh02,.sh03,.sh04{
+	float: left;
+	margin-left: 40px;
+	margin-top: 96px;
+}
+.sh01{
+	margin-left: 146px;
+}
+.bh01,.bh02,.bh03,.bh04{
+	padding: 10px 5px;
+	border:1px solid #ccc;
+	background-color: white;
+}
+.sh01 p,.sh02 p,.sh03 p,.sh04 p{
+	text-align: center;
+	margin-top: 8px;
+}
+.sh01 p:nth-of-type(2){
+	font-size: 12px;
+	color: 	#A9A9A9;
+}
+.sh02 p:first-of-type{
+	font-size: 22px;
+	letter-spacing: 40px;
+	margin-left: 10px;
+	margin-top: 0;
+}
+.sh02 p:nth-of-type(2){
+	font-size: 12px;
+	color: 	#A9A9A9;
+	margin-bottom: 5px;
+}
+.sh03 p:nth-of-type(2){
+	font-size: 12px;
+	color: 	#A9A9A9;
+}
+.sh04 p:nth-of-type(2){
+	font-size: 12px;
+	color: 	#A9A9A9;
+}
+.new_world{
+	height: 562px;
+	width: 1280px;
+}
+.new_world>.men{
+	width: 837px;
+	height: 432px;
+	background-image: url("http://olyqrulls.bkt.clouddn.com/men.png");
+	padding-top: 130px;
+	text-align: center;
+	float: left;
+}
+.new_world > .men >p:first-child{
+	font-size: 50px;
+	color: white;
+
+}
+.new_world > .men >p:nth-child(2){
+	font-size: 150px;
+	color: white;
+	margin-top:0px;
+}
+.new_world> .men>p{
+	color: white;
+	margin-top: 0;
+}
+.new_world >.text{
+	width: 443px;
+	height: 400px;
+	padding-top: 162px;
+	float: left;
+}
+.new_world >.text >h3{
+	font-size: 20px;
+	text-align: center;
+}
+.new_world >.text >h3>span{
+	color: #E74E48;
+	font-size: 20px;
+}
+.new_world >.text >p{
+	font-size: 12px;
+	color: 	#D3D3D3;
+	display: inline-block;
+	line-height: 30px;
+	margin-left: 72px;
+	margin-right: 72px;
+	margin-top: 10px;
+}
+.new_world >.text >div:first-of-type{
+	width: 102px;
+	height: 30px;
+	color: #E74E48;
+	border:1px solid #E74E48;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+	margin-left: 165px;
+	margin-top: 40px;
+}
+.new_world >.text>.c1,.c2,.c3{
+	width: 8px;
+	height: 8px;
+	border:1px solid #D3D3D3;
+	border-radius: 50%;
+	float: left;
+	margin-top: 30px;
+	margin-left:15px;
+}
+.new_world >.text>.c1{
+	margin-left: 190px;
+	background-color: #D3D3D3;
+}
+.three{
+	width: 1280px;
+	height: 520px;
+}
+.three>div:first-child{
+	width: 443px;
+	height: 345px;
+	background-color: #E74E48;
+	float: left;
+	padding-top: 175px;
+}
+.three>div:first-child>p{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+.three>div:first-child>span{
+	width: 32px;
+	height: 20px;
+	display: inline-block;
+	border-bottom: 2px solid white;
+	margin-left: 206px;
+}
+.three>div:first-child>p:nth-child(4){
+	border:1px solid white;
+	width: 166px;
+	height: 42px;
+	text-align: center;
+	line-height: 42px;
+	margin-left: 136px;
+	margin-top: 20px;
+}
+
+
+.three>div:nth-child(2){
+	width: 394px;
+	height: 345px;
+	float: left;
+	padding-top: 175px;
+}
+.three>div:nth-child(2)>p{
+	font-size: 20px;
+	color: black;
+	text-align: center;
+}
+.three>div:nth-child(2)>span{
+	width: 32px;
+	height: 20px;
+	display: inline-block;
+	border-bottom: 2px solid #A9A9A9;
+	margin-left: 182px;
+}
+.three>div:nth-child(2)>p:nth-child(4){
+	border:1px solid #E74E48;
+	width: 166px;
+	height: 42px;
+	text-align: center;
+	line-height: 42px;
+	margin-left: 116px;
+	margin-top: 20px;
+	color: #E74E48;
+}
+.three>div:nth-child(3){
+	width: 443px;
+	height: 520px;
+	float: left;
+	background-image: url("http://olyqrulls.bkt.clouddn.com/thr03.png");
+}
+.forms{
+	padding-top: 120px;
+}
+.forms>.head{
+	margin: 0 auto;
+	width: 435px;
+	height: 100px;
+	padding-top: 0;
+}
+.forms>.head>h4{
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 3px;
+	
+
+}
+.forms>.head>span{
+	display: inline-block;
+	width: 32px;
+	height: 5px;
+	border-bottom: 2px solid #E74E48;
+	margin-left: 200px;
+	margin-bottom: 5px;
+}
+.forms>.head>p{
+	font-size: 12px;
+	color: #A9A9A9;
+}
+.forms>.head>p:nth-child(4){
+	text-align: center;
+}
+.forms>.main>.left{
+	width: 295px;
+	height: 285px;
+	float: left;
+	margin-left: 142px;
+	padding-top: 0;
+}
+.forms>.main>.left>h5{
+	margin-bottom: 30px;
+	color: 	#696969;
+	font-size: 14px;
+	font-family: 黑体;
+}
+.forms>.main>.left>h5:not(first-child){
+	margin-top: 30px;
+
+}
+.forms>.main>.left>p{
+	font-size: 12px;
+	color: 	#C0C0C0;
+}
+.forms>.main>.left>p>span{
+	float: right;
+}
+.forms>.main>.right{
+	width:640px;
+	height: 285px;
+	float: left;
+	margin-left: 75px;
+	margin-top: 26px;
+}
+.forms>.main>.right>input{
+	width:300px;
+	height: 40px;
+	margin-bottom: 16px;
+	font-size: 14px;
+	color: 	#696969;
+	background-color: rgb(237,237,239);	
+	border:none;
+	padding-left:2px;
+}
+.forms>.main>.right>input:nth-child(2){
+	margin-left: 18px;
+}
+.forms>.main>.right>input:nth-child(4){
+	margin-left: 18px;
+}
+.forms>.main>.right>textarea{
+	width: 627px;
+	height: 114px;
+	font-size: 14px;
+	color: 	#696969;
+	margin-bottom: 16px;
+	background-color: rgb(237,237,239);	
+	border:none;
+	padding-left:2px;
+}
+.forms>.main>.right>p{
+	width: 627px;
+	height: 40px;
+	text-align: center;
+	font-size: 15px;
+	line-height: 40px;
+	background-color: rgb(237,237,239);
+}
+
+footer{
+	width: 1280px;
+	height: 324px;
+	background-color: rgb(51,54,63);
+	margin-top: 475px;
+	font-family: 微软雅黑;
+	text-align: center;
+	padding-top: 92px;
+	position: relative;
+}
+footer>p:first-child{
+	font-size: 20px;
+	color: white;
+	line-height: 22px;
+}
+footer>p:nth-child(2){
+	font-size: 12px;
+	color: white;
+	line-height: 22px;
+}
+footer>p:nth-child(3){
+	font-size: 12px;
+	color: white;
+	line-height: 22px;
+}
+footer>input{
+	width: 430px;
+	height: 40px;
+	color: #D3D3D3;
+	margin-top: 25px;
+	border:none;
+}
+footer>span{
+	display: inline-block;
+	width: 82px;
+	height: 40px;
+	background-color: rgb(111,111,119);
+	font-size: 15px;
+	line-height: 40px;
+	color: rgb(231,232,236);
+	margin-top: 25px;
+}
+footer>div:first-of-type{
+	margin-top: 40px;
+}
+footer img{
+	margin-left: 30px;
+}
+footer>div:nth-of-type(2){
+	width: 1280px;
+	height: 50px;
+	background-color: rgb(48,48,58);
+	color: white;
+	position: absolute;
+	bottom: 0;
+}
+footer>div:nth-of-type(2)>p:first-child{
+	float: left;
+	line-height: 50px;
+	font-size: 12px;
+	margin-left: 100px;
+}
+footer>div:nth-of-type(2)>p:last-child{
+	float: right;
+	line-height: 50px;
+	font-size: 12px;
+	margin-right: 40px;
+}
+
